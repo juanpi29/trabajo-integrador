@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/codo a codo/estilos/tickets.css">
+
+    <title>Comprar Tickets</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg nav_header">
+            <div class="container-fluid">
+                <img class="logo" src="./fotos/codoacodo.png" alt="logo">
+                <a class="navbar-brand text-white titulo" href="index.html">Conf Bs As</a>
+                <ul class="navbar-nav mb-lg-0 d-flex justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link nav_color3" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_color1" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_color1" href="#">Lugar y fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_color1" href="#">Conviertete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_color2" href="/codo a codo/index.html">Comprar tickets</a>
+                    </li>
+            </div>
+        </nav>
+    </header>
+    <section class="card descuentos">
+        <div class="card-body descuento descuento_estudiante">
+          <h5 class="card-title texto_titulo">Estudiante</h5>
+          <h6 class="card-subtitle texto_descuento">Tiene un descuento<br><b>80%</b></h6>
+          <p class="card-text texto_documentacion">* presentar documentacion</p>
+        </div>
+        <div class="card-body descuento descuento_trainee">
+            <h5 class="card-title texto_titulo">Trainee</h5>
+            <h6 class="card-subtitle texto_descuento">Tiene un descuento<br><b>50%</b></h6>
+            <p class="card-text texto_documentacion">* presentar documentacion</p>
+        </div>
+        <div class="card-body descuento descuento_junior">
+            <h5 class="card-title texto_titulo">Junior</h5>
+            <h6 class="card-subtitle texto_descuento">Tiene un descuento<br><b>15%</b></h6>
+            <p class="card-text texto_documentacion">* presentar documentacion</p>
+        </div>
+    </section>
+    <div class="formularios_titulo">
+        <h6>VENTA</h6>
+        <h3>VALOR DEL TICKET $200</h3>
+    </div>
+    <section class="row formularios">
+        <div class="col formularios_input">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col formularios_input">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+        <div class="formularios_input">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+        </div>
+        <div class="col formularios_input">
+                <label for="formGroupExampleInput" class="form-label">Cantidad</label>
+            <input type="text" class="form-control" placeholder="Cantidad" aria-label="Cantidad">
+        </div>
+        <div class="col formularios_input">
+            <label for="inputState" class="form-label">Categoria</label>
+            <select id="categorias" class="form-select">
+                <option value="Sin_categoria">Sin categoria</option>
+                <option value="Estudiante">Estudiante</option>
+                <option value="Trainee">Trainee</option>
+                <option value="Junior">Junior</option>
+            </select>
+        </div>
+        <div class="formularios_total">
+        
+            <p id="total">Total a pagar: $</p>
+        </div>
+        <div class="formularios_boton">
+            <button class="boton" id="boton1" type="submit">Borrar</button>
+            <button class="boton" id="boton2" type="submit">Resumen</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link footer_link" href="#">Preguntas frecuentes</a></li>
+            <li class="nav-item"><a class="nav-link footer_link" href="#">Contáctanos</a></li>
+            <li class="nav-item"><a class="nav-link footer_link" href="#">Prensa</a></li>
+            <li class="nav-item"><a class="nav-link footer_link" href="#">Conferencias</a></li>
+            <li class="nav-item"><a class="nav-link footer_link" href="#">Términos y condiciones</a></li>
+            <li class="nav-item"><a class="nav-link footer_link" href="#">Privacidad</a></li>
+            <li class="nav-item"><a class="nav-link footer_link" href="#">Estudiantes</a></li>
+        </ul>
+    </footer>
+    <script src="/codo a codo/js/tickets.js"></script>
+</body>
+</html>

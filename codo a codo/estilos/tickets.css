@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_header{
+    background-color: rgb(35, 35, 35);
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.titulo{
+    margin-right: auto;
+}
+li{
+    color: #fff;
+    padding: 10px;
+}
+.nav_color1{
+    color: rgb(123, 122, 122);
+}
+.nav_color2{
+    color: rgb(13, 96, 13)
+}
+.nav_color3{
+    color: #fff;
+}
+.descuentos{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.descuento_estudiante{
+    border: solid 1px rgb(54, 121, 246);
+}
+.descuento_trainee{
+    border: solid 1px rgb(27, 146, 169	);
+}
+.descuento_junior{
+    border: solid 1px rgb(254, 181, 13);
+}
+.descuento{
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.texto_titulo{
+    padding-top: 0%;
+}
+.texto_descuento{
+    padding-top: 8%;
+}
+.texto_documentacion{
+    font-size: 12px;
+    padding-top: 20%;
+}
+.card{
+    --bs-card-border-width: 0px;
+}
+.formularios_titulo{
+    text-align: center;
+}
+.formularios_titulo h6{
+    color: rgb(123, 122, 122);
+    font-size: 14px;
+    padding-top: 1%;
+}
+.formularios_titulo h3{
+    font-size: 40px;
+}
+.formularios{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+.formularios_input{
+    padding-top: 1%;
+}
+.formularios_total{
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 3px;
+    width: 95%;
+    background-color: rgb(194, 222, 254);
+    color: rgb(6, 45, 131);
+}
+.formularios_boton{
+    padding-top: 2%;
+    height: 100%;
+}
+.boton{
+    background-color: rgb(134, 194, 48);
+    width: 49%;
+    height: 5vh;
+    border: solid 1px rgb(134, 194, 48);
+    border-radius: 3px;
+    color: #fff;
+}
+.footer{
+    margin-top: 1%;
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: 20vh;
+}
+.footer_link{
+    color: #fff;
+}
